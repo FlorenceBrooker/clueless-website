@@ -1,0 +1,374 @@
+/*Custom Css*/
+
+
+
+.logo {
+
+	position: absolute;
+	left: 30px;
+	
+
+
+}
+
+.mainimage {
+
+	position: absolute;
+	left: 1160px;
+
+}
+
+	
+}
+
+.yellowbar {
+
+	display: inline-block;
+	height: 300px;
+	width: 100%;
+	background-color: #feedff;
+	margin-top: -100px;
+
+}
+
+
+
+
+.UL a {
+
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	padding: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+	font-size: 15px;
+	background-color: none;
+
+
+
+}
+
+.UL li {
+
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	
+
+
+}
+
+.UL {
+
+	margin-left: 500px;
+	background-color: black;
+
+
+
+
+
+}
+
+.UL2 a {
+
+	color: black;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	padding-right: 80px;
+
+}
+
+.UL2 li {
+
+	list-style: none;
+	float: right;
+	
+
+}
+
+.UL2 {
+
+	transform: rotate(270deg);
+	right: 0px;
+
+
+}
+
+.navvert {
+
+	position: absolute;
+	left: -115px;
+	top: 500px;
+	
+
+}
+
+.agh {
+
+	display: inline-block;
+	margin-top: 200px;
+	float: left;
+
+}
+
+.secondimage {
+
+	position: absolute;
+	top: 500px;
+	left: 320px;
+}
+
+.yellowbar {
+
+	height: 400px ;
+	background-color: #fff996;
+	margin-top: 815px;
+	display: inline-block;
+	width: 100%;
+
+}
+
+.typewriter {
+
+	position: absolute;
+	top: 220px;
+	font-size: 100px;
+	left: 220px;
+	font-family: 'IBM Plex Mono', monospace;
+
+
+
+}
+
+/*Polaroid Code Begins Here*/
+
+.wrap {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 148%;
+  margin-top: -300px;
+  background-color: white;
+  overflow: hidden;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+}
+
+.photo {
+  width: 260px;
+  height: 320px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 0 1px rgba(0,0,0,.01);
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  left: 50%;
+  top: 50%;
+  margin: -160px 0 0 -130px;
+}
+
+.photo .side {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  padding-top: 6px;
+  box-sizing: border-box;
+}
+
+.photo .side-front { /*display: none;*/
+}
+
+.photo .side-front .image {
+  width: 100%;
+  height: 250px;
+  line-height: 0px;
+  overflow: hidden;
+}
+
+.photo .side-front .image img { width: 100%; }
+
+.photo .side-front .caption {
+  text-align: center;
+  font-size: 16px;
+  line-height: 0px;
+}
+
+.photo .side-back { }
+
+.photo .side-back .desc {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.photo_center {
+  left: 50%;
+  top: 50%;
+  margin: -160px 0 0 -130px;
+  z-index: 999;
+}
+
+.photo-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 0.6s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: all 0.6s;
+}
+
+.photo-wrap .side-front {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+}
+
+.photo-wrap .side-back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+.photo-wrap .side {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
+.photo_front .photo-wrap {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+}
+
+.photo_back .photo-wrap {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+/*STYLING THE DOTS NAV*/
+
+.nav {
+  width: 80%;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  left: 10%;
+  bottom: 20px;
+  z-index: 999;
+  text-align: center;
+}
+
+.nav .i {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #aaa;
+  text-align: center;
+  border-radius: 90%;
+  -webkit-transform: scale(0.5);
+  -webkit-transition: all 0.5s;
+  -moz-transform: scale(0.5);
+  -moz-transition: all 0.5s;
+}
+
+.nav .i_current {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+}
+
+.nav .i_back {
+  -webkit-transform: rotateY(-180deg) scale(0.8);
+  -moz-transform: rotateY(-180deg) scale(0.8);
+  background-color: #555;
+}
+
+
+
+
+
+.characters {
+
+	display: block;
+	font-size: 80px;
+	font-family: 'IBM Plex Mono', monospace;
+	margin-left: 38%;
+	margin-top: -120px;
+
+}
+
+.iframe-container {
+
+	position: relative;
+	width: 100%px;
+	margin-left: 25%;
+	margin-top: 800px;
+	
+
+}
+
+
+
+
+/*MEDIA QUERIES START HERE*/
+  @media (max-width: 767px) {
+
+   .UL a { 
+
+   		font-size: 10px;
+   		display: inline-block;
+   		float: right;
+   		margin-top: 100px
+
+  
+  }
+
+  .logo {
+
+  		display: inline-block;
+  		margin-left: 10%;
+  		
+  }
+
+  .UL2 a {
+
+  		display: none;
+  }
+
+  .typewriter {
+
+  	display: none;
+  }
+
+  .secondimage {
+
+
+  }
+
+  .wrap {
+
+  	display: none;
+
+  }
+
+  .characters {
+
+  	display: none;
+  }
+
+  .iframe-container {
+
+  	width: 10rem;
+
+
+
+
+  
+
+
+
+
